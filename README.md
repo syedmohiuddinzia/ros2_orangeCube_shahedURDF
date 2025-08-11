@@ -63,8 +63,8 @@ Note: You can add this line to your `~/.bashrc` so it runs automatically each ti
 echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 source ~/.bashrc
 ```
-</br>
-</br>
+---
+
 ### View in RViz2
 Launch the model visualization:
 ```bash
