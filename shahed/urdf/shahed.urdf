@@ -1,0 +1,20 @@
+<robot name="shahed">
+  <!-- Base link (fixed reference) -->
+  <link name="base_link"/>
+
+  <!-- IMU Sensor Frame -->
+  <link name="imu_frame">
+    <visual>
+      <geometry>
+        <mesh filename="package://shahed/meshes/model.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+
+  <!-- Joint between base and IMU frame -->
+  <joint name="base_to_imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_frame"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+</robot>
