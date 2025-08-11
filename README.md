@@ -1,7 +1,7 @@
 # Using Shahed URDF in ROS2 for Orange Cube IMU Data
 This guide explains how to use the Shahed URDF in ROS 2 to represent and visualize Orange Cube IMU data. This repository contains the Shahed UAV URDF for use with ROS 2. You can visualize the model in RViz and integrate it with your existing ROS 2 workspace.
 
-![_gif]()
+![_gif](https://github.com/syedmohiuddinzia/ros2_orangeCube_shahedURDF/blob/main/gif_.gif)
 
 ---
 
